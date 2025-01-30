@@ -46,7 +46,7 @@
 
 <body class="font-poppins">
 
-    <header class="container mx-auto  max-[1440px] mt-12">
+    <header class="container mx-auto mt-12 lg:mb-28">
         <!-- Navbar Section -->
         <div class="navbar mb-12">
             <div class="navbar-start">
@@ -78,13 +78,26 @@
                     <li><a>Contact Us</a></li>
                 </ul>
             </div>
-            <div class="navbar-end">
+            <div class="navbar-end hidden md:flex">
                 <a class="btn bg-color-primary text-white">Free Consultation</a>
             </div>
         </div>
 
         <!-- Banner Section -->
-
+        <div class="hero min-h-screen rounded-3xl" style="background-image: url(images/banner.png);">
+            <!-- <div class="hero-overlay bg-opacity-60 rounded-3xl"></div> -->
+            <div class="hero-content text-neutral-content text-center lg:m-24">
+                <div class="max-w-max">
+                    <h1 class="mb-5 text-3xl lg:text-7xl  font-bold">We Provide Effective <br> Legal Solutions</h1>
+                    <p class="mb-5">
+                        Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+                        quasi. In deleniti eaque aut repudiandae et a id nisi.
+                    </p>
+                    <input type="text" placeholder="Search your services" class="input input-bordered w-full max-w-xs" />
+                    <button class="btn text-white bg-color-primary border-0 x-4 lg:w-32">Search</button>
+                </div>
+            </div>
+        </div>
     </header>
 
     <main>
